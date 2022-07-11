@@ -74,12 +74,12 @@ Acquá
 
 :root {
 
-    --cor0:#64DFDF;
-    --cor1:#56CFE1;
-    --cor2:#48BFE3;
-    --cor3:#4EA8DE;
-    --cor4:#5390D9;
-    --cor5:#5E60CE;
+--cor0:#f1c1c1;
+--cor1:#A3000B;
+--cor2:#630007;
+--cor3:#E3000E;
+--cor4:#F00010;
+--cor5:#C9000D;
 
     --fonte-patrao:arial, verdana, helvetica, sans-serif;
     --fonte-destaque:'Bebas Neue', cursive;
