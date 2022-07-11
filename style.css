@@ -83,12 +83,12 @@ Marshmallow
 
 :root {
 
---cor0:#f1c1c1;
---cor1:#A3000B;
---cor2:#630007;
---cor3:#E3000E;
---cor4:#F00010;
---cor5:#C9000D;
+    --cor0:#E5B3FE;
+    --cor1:#E2AFFF;
+    --cor2:#DEAAFF;
+    --cor3:#D8BBFF;
+    --cor4:#D0D1FF;
+    --cor5:#C8E7FF;
 
     --fonte-patrao:arial, verdana, helvetica, sans-serif;
     --fonte-destaque:'Bebas Neue', cursive;
