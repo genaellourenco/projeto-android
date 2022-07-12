@@ -33,14 +33,14 @@ Verde
 --cor4:#065064;
 --cor5:#003855;
 
-Amor
+Verde2
 
---cor0:#f1c1c1;
---cor1:#A3000B;
---cor2:#630007;
---cor3:#E3000E;
---cor4:#F00010;
---cor5:#C9000D;
+--cor0:#066839;
+--cor1:#0A5C36;
+--cor2:#0F5132;
+--cor3:#14452F;
+--cor4:#18392B;
+--cor5:#1D2E28;
 
 Azul
 
@@ -50,15 +50,6 @@ Azul
 --cor3:#0077b6;
 --cor4:#023e8a;
 --cor5:#03045e;
-
-Lollipop
-
---cor0:#FFBE0B ;
---cor1:#FB5607 ;
---cor2:#FF006E ;
---cor3:#8338EC ;
---cor4:#3A86FF ;
---cor5:#4C91FF ;
 
 Acquá
 
@@ -83,12 +74,14 @@ Marshmallow
 
 :root {
 
-    --cor0:#E5B3FE;
-    --cor1:#E2AFFF;
-    --cor2:#DEAAFF;
-    --cor3:#D8BBFF;
-    --cor4:#D0D1FF;
-    --cor5:#C8E7FF;
+--cor-1:#2d8e5f;    
+ --cor0:#066839;
+ --cor1:#0A5C36;
+ --cor2:#0F5132;
+ --cor3:#14452F;
+ --cor4:#18392B;
+ --cor5:#1D2E28;
+
 
     --fonte-patrao:arial, verdana, helvetica, sans-serif;
     --fonte-destaque:'Bebas Neue', cursive;
@@ -105,7 +98,7 @@ a.externo::after{
 }
 
 header{
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor5));
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -115,7 +108,7 @@ header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
     margin-bottom: 20px;
-    font-size: 3em;
+    font-size: 3.2em;
     text-shadow: 05px 05px 05px rgba(0, 0, 0, 0.338);
     font-weight: normal;
 }
@@ -140,7 +133,7 @@ nav{
 }
 
 nav > a{
-    color:var(--cor1);
+    color:var(--cor-1);
     text-decoration: none;
     padding: 10px;
     font-weight: bold;  
@@ -186,7 +179,7 @@ main h2 {
     color: var(--cor4);
     font-family: var(--fonte-android);
     font-size: 1.3em;
-    background-image: linear-gradient(to right, var(--cor1), transparent );
+    background-image: linear-gradient(to right, var(--cor-1), transparent );
     text-indent: 08px;
     font-weight: normal;
 }
@@ -202,7 +195,7 @@ main p{
 main a{
     color: var(--cor5);
     font-weight: bolder;
-    background-color: var(--cor0);
+    background-color: var(--cor-1);
     padding: 4px; 
     border-radius: 05px 05px 05px 05px;
     text-decoration: none;
@@ -215,7 +208,7 @@ main a:hover{
 }
 
 main strong {
-    color:var(--cor5) ;
+    color:var(--cor0) ;
     font-weight: bolder;
 
 }
@@ -258,7 +251,10 @@ aside ul{
     list-style-type: '\2714\00a0' ;
     list-style-position: inside;
     columns: 2;
-    
+}
+
+aside strong{
+    color: var(--cor6);
 }
 
 footer{
@@ -274,6 +270,6 @@ footer > a{
 }
 
 footer a:hover{
-    color: var(--cor1);
+    color: var(--cor-1);
     text-decoration: underline;
 }
